@@ -1,0 +1,28 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p{
+    font-size: 30px;
+}
+.board{
+    display:grid;
+    grid-template-columns: repeat(10,40px);
+    grid-gap:2px;
+    margin: 20px auto;
+}
+
+.cell{
+    background-color: #f4f4f4;
+    height:40px;
+}
+
+.cell.H{
+    background-color: #ADD8E6;
+}
+
+.cell.V{
+    background-color: #FF7F7F;
+}
